@@ -1,0 +1,5 @@
+cypress.config.ts
+**/*/*CommandsDeclarations.ts
+cypress/support/commands/index.ts
+cypress/support/utils/index.ts
+declaration.d.ts

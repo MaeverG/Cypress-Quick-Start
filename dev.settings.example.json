@@ -1,0 +1,23 @@
+{
+  "baseUrl": "https://app.dev.example.com",
+  "env": {
+    "baseUrlApi": "https://api.dev.example.com",
+    "testUsers": {
+      "systemUser": "qa.automation@example.com",
+      "password": "changeme"
+    },
+    "postgres": {
+      "user": "app_readwrite",
+      "password": "changeme",
+      "host": "127.0.0.1",
+      "database": "app_db",
+      "ssl": false,
+      "port": 5432
+    },
+    "ssh": {
+      "host": "bastion.dev.example.com",
+      "port": 22,
+      "user": "ec2-user"
+    }
+  }
+}

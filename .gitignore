@@ -1,0 +1,20 @@
+node_modules
+downloads
+.idea
+.vscode
+.DS_Store
+
+cypress/videos
+cypress/screenshots
+cypress/reports
+cypress/temp/*
+
+# real per-environment settings — copy the .example.json files and fill in real values
+*.settings.json
+!*.settings.example.json
+*.pem
+*.env
+!.env.example
+
+logs
+cypress.env.json

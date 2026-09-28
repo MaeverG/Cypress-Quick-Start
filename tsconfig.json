@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "baseUrl": "./cypress",
+    "types": ["cypress", "cypress-plugin-api", "cypress-plugin-steps", "@cypress/grep", "node"],
+    "paths": {
+      "@utils/*": ["support/utils/*"],
+      "@/types/*": ["support/types/*"],
+      "@support/*": ["support/*"],
+      "@commands": ["support/commands/supportCommands/supportCommands"],
+      "@queries/*": ["support/database/*"]
+    },
+    "allowUmdGlobalAccess": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  },
+  "include": ["cypress.config.ts", "cypress/**/*.ts", "declaration.d.ts", "**/*.d.ts"]
+}
